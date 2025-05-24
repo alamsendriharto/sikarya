@@ -1,0 +1,439 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8"></meta>
+  <title>Katalog Produk Tambran Magetan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .running-text {
+      background-color: #2e7d32;
+      color: #fff;
+      padding: 10px 20px;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .running-text span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 15s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .section {
+      background-color: #f9fbe7;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #33691e;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .order-buttons {
+      margin: 20px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .order-buttons a {
+      flex: 1 1 150px;
+      padding: 12px;
+      background-color: #4caf50;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .order-buttons a:hover {
+      background-color: #388e3c;
+    }
+
+    .shopee { background-color: #ee4d2d; }
+    .tokopedia { background-color: #03ac0e; }
+    .lazada { background-color: #1a73e8; }
+    .tiktok { background-color: #000; }
+    .website { background-color: #607d8b; }
+
+    .chat-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      z-index: 999;
+      font-size: 14px;
+      overflow: hidden;
+    }
+
+    .chat-box-header {
+      background-color: #43a047;
+      color: white;
+      padding: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .chat-box-body {
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .chat-box-body img {
+      width: 70px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+
+    .chat-box-text {
+      flex-grow: 1;
+    }
+
+    .chat-box-text p {
+      margin: 4px 0;
+    }
+
+    .chat-box-text strong {
+      color: #075e54;
+    }
+
+    .chat-box-text a {
+      display: inline-block;
+      margin-top: 8px;
+      background-color: #25d366;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .chat-box-text a:hover {
+      background-color: #128c7e;
+    }
+
+    @media (max-width: 480px) {
+      .chat-box {
+        width: 90%;
+        right: 5%;
+        bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="running-text">
+    <span>🌱 Selamat datang di Katalog Produk UMKM Tambran Magetan – Produk Lokal, Kualitas Nasional! 🌱</span>
+  </div>
+
+  <div class="section">
+    <p class="title">🌿 Katalog Produk Tambran</p>
+    <p>Temukan produk lokal unggulan dari Tambran, Magetan, dengan kualitas terpercaya dan legalitas resmi.</p>
+<p style="text-align: center;"><em>“Dari Tambran untuk Nusantara – Mari dukung produk lokal berkualitas dan bersertifikat!”</em></p>
+  </div>
+
+  <!-- Chat Box -->
+  <div aria-label="Customer Service Chat Box" class="chat-box" role="complementary">
+    <div class="chat-box-header">Butuh Bantuan?</div>
+    <div class="chat-box-body">
+      <img alt="Customer Service" src="https://morrisgaragemakassar.com/wp-content/uploads/2021/09/CS-MG-Makassar-294x300.png" />
+    </div>
+  </div>
+
+</body>
+</html>
+
+<html lang="id">
+<head>
+  <meta charset="UTF-8"></meta>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
+  <title>Katalog Produk UMKM Tambran Magetan</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .running-text {
+      background: linear-gradient(90deg, #43a047, #66bb6a);
+      color: #fff;
+      padding: 10px 20px;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .running-text span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 20s linear infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .section {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .carousel {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      overflow: hidden;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    .carousel-inner {
+      display: flex;
+      width: 200%;
+      animation: slide 15s ease-in-out infinite;
+    }
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @keyframes slide {
+      0%, 50%, 100% { transform: translateX(0); }
+      25%, 75% { transform: translateX(-100%); }
+    }
+
+    h2, h3 {
+      color: #33691e;
+    }
+
+    ul {
+      line-height: 1.8;
+      padding-left: 20px;
+    }
+
+    .buttons-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .buttons-group a {
+      flex: 1 1 150px;
+      padding: 12px;
+      background: linear-gradient(135deg, #4caf50, #81c784);
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    .buttons-group a:hover {
+      background: linear-gradient(135deg, #2e7d32, #66bb6a);
+    }
+
+    .buttons-group a.shopee { background: linear-gradient(135deg, #ee4d2d, #ff7043); }
+    .buttons-group a.tokopedia { background: linear-gradient(135deg, #03ac0e, #66bb6a); }
+    .buttons-group a.lazada { background: linear-gradient(135deg, #1a73e8, #64b5f6); }
+    .buttons-group a.tiktok { background: linear-gradient(135deg, #000, #333); }
+    .buttons-group a.website { background: linear-gradient(135deg, #607d8b, #90a4ae); }
+    .buttons-group a.whatsapp { background: linear-gradient(135deg, #25d366, #128c7e); }
+
+    .chat-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      font-size: 14px;
+      overflow: hidden;
+      z-index: 999;
+    }
+
+    .chat-box-header {
+      background-color: #43a047;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .chat-box-body {
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .chat-box-body img {
+      width: 70px;
+      border-radius: 10px;
+    }
+
+    .chat-box-text {
+      flex-grow: 1;
+    }
+
+    .chat-box-text a {
+      display: inline-block;
+      margin-top: 8px;
+      background-color: #25d366;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 480px) {
+      .chat-box {
+        width: 90%;
+        right: 5%;
+        bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="running-text">
+    <span>🌱 Selamat datang di Katalog Produk UMKM Tambran Magetan – Produk Lokal, Kualitas Nasional! 🌱</span>
+  </div>
+
+  <div class="section">
+    <!-- Carousel -->
+    <div class="carousel">
+      <div class="carousel-inner">
+        <img alt="Produk UMKM" src="https://kuningankab.go.id/sites/default/files/gambar-tambahan-berita/gelar-produk-umkm-2019-2.JPG" />
+        <img alt="UMKM Magetan" src="https://kabarmagetan.com/wp-content/uploads/2022/05/1653989434_30-Produk-UMKM-Magetan-Tembus-Toko-Retai-%E2%80%93-Dinas-Komunikasi.jpeg" />
+      </div>
+    </div>
+
+    <!-- Deskripsi -->
+    <h2>🌿 Deskripsi Produk</h2>
+    <p>
+      Produk unggulan UMKM Tambran Magetan ini merupakan simbol kreativitas lokal dan kualitas nasional. Diracik dari bahan pilihan, melalui proses higienis dan ramah lingkungan, menjadikannya aman, bermanfaat, dan berkualitas.
+      <br /><br />
+      Cocok untuk kebutuhan rumah tangga, kesehatan, maupun oleh-oleh khas daerah. Telah memenuhi standar legalitas yang dibutuhkan, dan siap bersaing di pasar nasional maupun internasional.
+      <br /><br />
+      Mari dukung pertumbuhan UMKM lokal dengan menggunakan produk asli Tambran yang telah teruji, terpercaya, dan memberi manfaat bagi masyarakat sekitar.
+    </p>
+
+    <!-- Info Produk -->
+    <h3>📦 Informasi Produk</h3>
+    <ul>
+      <li><strong>Kategori:</strong> Kesehatan, Perlengkapan Medis, Peralatan P3K</li>
+      <li><strong>Brand:</strong> -</li>
+      <li><strong>Min. Pembelian:</strong> - pcs</li>
+      <li><strong>Berat Satuan:</strong> - kg</li>
+      <li><strong>Dimensi:</strong> - </li>
+      <li><strong>Berat Volume:</strong> - </li>
+    </ul>
+
+    <!-- Testimoni dan Lokasi -->
+    <h3>🗣️ Testimoni &amp; Lokasi</h3>
+    <div class="buttons-group">
+      <a href="https://s.id/sfjdskdsjf" target="_blank">📍 Lokasi UMKM</a>
+      <a href="https://s.id/sfjdskdsjf" target="_blank">👨‍💼 Testimoni Lurah</a>
+      <a href="https://s.id/sfjdskdsjf" target="_blank">🧍‍♀️ Testimoni Pembeli</a>
+      <a href="https://s.id/sfjdskdsjf" target="_blank">📚 Dokumentasi Pembinaan</a>
+    </div>
+
+    <!-- Legalitas -->
+    <h3>📄 Legalitas Produk</h3>
+    <div class="buttons-group">
+      <a href="https://s.id/fdsfdsgfs" target="_blank">✅ Sertifikat Halal</a>
+      <a href="https://s.id/fdsfdsgfsa23s" target="_blank">✅ Sertifikat BPOM</a>
+      <a href="https://s.id/fdsfdsgfssd" target="_blank">✅ Sertifikat P-IRT</a>
+    </div>
+
+    <!-- Order -->
+    <h3>🛒 Pembelian &amp; Order</h3>
+    <div class="buttons-group">
+      <a class="whatsapp" href="https://wa.me/6283654651" target="_blank">💬 WhatsApp</a>
+      <a class="shopee" href="https://s.id/fdsgkdsfs" target="_blank">🛒 Shopee</a>
+      <a class="tokopedia" href="https://s.id/fdsgkdsfs" target="_blank">🛒 Tokopedia</a>
+      <a class="lazada" href="https://s.id/fdsgkdsfs" target="_blank">🛒 Lazada</a>
+      <a class="tiktok" href="https://s.id/fdsgkdsfs" target="_blank">🛍 TikTok Shop</a>
+      <a class="website" href="https://s.id/fdsgkdsfs" target="_blank">🌐 Website</a>
+    </div>
+
+    <p style="font-style: italic; text-align: center;">“Dari Tambran untuk Nusantara – Mari dukung produk lokal berkualitas dan bersertifikat!”</p>
+
+    <!-- Game -->
+    <h3 style="text-align: center;">🎮 Mainkan Game Dinosaurus!</h3>
+    <iframe src="https://chromedino.com/"></iframe>
+  </div>
+
+  <!-- Chat Box -->
+  <div class="chat-box">
+    <div class="chat-box-header">Butuh Bantuan?</div>
+    <div class="chat-box-body">
+      <img alt="CS" src="https://morrisgaragemakassar.com/wp-content/uploads/2021/09/CS-MG-Makassar-294x300.png" />
+      <div class="chat-box-text">
+        <p><strong>Halo Sahabat! 👋</strong><br />Yuk belanja disini, hubungi kami jika bingunggg</p>
+        <a href="https://wa.me/628563646659" target="_blank">Chat via WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html><br /></p><br />
